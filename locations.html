@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MGB - Locations</title>
+		<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="mobile-style.css">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1HCbE88M2C3pilhl8AcpS56yoH5CqGJA&sensor=false"></script>
+	<script type="text/javascript" src="js/gmaps.js"></script>
+</head>
+<body  class="locations">
+	<div class="container">
+			<div class="header">
+				<div class="wrapper">
+					<div class="logo">
+						<img class="logo-img" src="img/mgblogo.png" alt="MGB"/>
+					</div>
+				</div>
+			</div>
+			<div class="content-container">
+				<div class="wrapper">
+					<h1 class="page-title">Locations</h1>
+					<div class="nav">
+						<ul class="nav-list">
+							<li class="nav-list-item"><a href="index.html">Home</a></li>
+							<li class="nav-list-item"><a href="whysell.html">Why Sell</a></li>
+							<li class="nav-list-item"><a href="specialbuys.html">Special Buys</a></li>
+							<li class="nav-list-item"><a href="locations.html">Locations</a></li>
+							<li class="nav-list-item"><a href="contact.html">Contact</a></li>
+							<li class="nav-list-item"><a href="instantbid.html">MGB Instant Bid</a></li>
+						</ul>
+					</div>
+					<div class="content">
+						<div id="map_canvas"></div>
+						<div class="locations-data">
+							<div class="location">
+								<span class="location-title">Temple</span>
+								<a class="location-address" href="https://maps.google.com/maps?q=3411+Market+Loop+Suite+105+Temple,+Texas+76502&hl=en&ll=31.070267,-97.370313&spn=0.008418,0.015675&sll=31.072932,-97.377942&sspn=0.016835,0.03135&t=h&hnear=3411+Market+Loop+%23105,+Temple,+Texas+76502&z=17&layer=c&cbll=31.07023,-97.370208&panoid=EFplg6WUTCswxkoPw0XZTg&cbp=12,229.44,,0,20.07">3411 Market Loop Suite 105 <br />
+									Temple, Texas 76502<br /></a>
+								<span class="location-address">254-771-0897</span>
+							</div>
+							<div class="location">
+							<span class="location-title">Hewitt</span>
+								<a class="location-address" href="https://maps.google.com/maps?q=102+Jim+Drive++Hewitt,+Texas+76643&hl=en&ll=31.473246,-97.200476&spn=0.008382,0.015675&sll=31.473246,-97.200476&sspn=0.008437,0.015675&t=h&hnear=102+Jim+Dr,+Hewitt,+Texas+76643&z=17&layer=c&cbll=31.472582,-97.201539&panoid=DIbVsB54J1CThj4D8M8f8w&cbp=12,20.1,,1,1.62">102 Jim Drive <br />
+									Hewitt, Texas 76643<br /></a>
+								<span class="location-address">254-495-3755</span>
+								</div>
+							<div class="location">
+								<span class="location-title">San Angelo</span>
+								<a class="location-address" href="https://maps.google.com/maps?q=4130B+Sherwood+Way++San+Angelo,+Texas+76901&hl=en&ll=31.439593,-100.490313&spn=0.007927,0.013196&sll=31.472582,-97.201539&sspn=0.00797,0.013196&t=h&hnear=4130+Sherwood+Way,+San+Angelo,+Texas+76904&z=17&layer=c&cbll=31.439479,-100.490524&panoid=GpqqxabRYyCvSDwciX9RqA&cbp=12,11.79,,0,10.53">4130B Sherwood Way <br />
+									San Angelo, Texas 76901<br /></a>
+								<span class="location-address">325-617-2984</span>
+							</div>
+							<div class="location clear">
+								<span class="location-title">Midland</span>
+								<a class="location-address" href="https://maps.google.com/maps?q=1019-A+N.+Midkiff+Midland,+Texas+79701&hl=en&ll=31.999988,-102.118718&spn=0.001401,0.00165&sll=31.07023,-97.370208&sspn=0.008004,0.013196&t=h&hnear=1019+N+Midkiff+Rd,+Midland,+Texas+79701&z=20">1019-A N. Midkiff <br />
+									Midland, Texas 79701</a>
+							</div>
+							<div class="location">
+								<span class="location-title">Copperas Cove</span>
+								<a class="location-address" href="https://maps.google.com/maps?q=2516-A+HWY+190++Copperas+Cove,+Texas+76522&hl=en&ll=31.120154,-97.875953&spn=0.002812,0.003299&sll=31.999988,-102.118718&sspn=0.001401,0.00165&t=h&hnear=2516+E+Hwy+190,+Copperas+Cove,+Coryell,+Texas+76522&z=19">2516-A HWY 190 <br />
+									Copperas Cove, Texas 76522</a>
+							</div>
+							<div class="location">
+								<span class="location-title">Lubbock</span>
+								<a class="location-address" href="https://maps.google.com/maps?q=5409+4th+St+STE+A+&hl=en&ll=31.120154,-97.875953&spn=0.002812,0.003299&sll=31.120154,-97.875953&sspn=0.002812,0.003299&t=h&z=19">5409 4th St STE A <br />
+									Lubbock, Texas 79416</a>
+							</div>
+							<div class="location">
+								<span class="location-title">Lubbock</span><a class="location-phone" href="https://maps.google.com/maps?q=2811+Texas+289+Loop+Frontage+Rd+%235,+Lubbock,+Texas+79423&hl=en&ll=33.528999,-101.878608&spn=0.000726,0.001184&sll=33.568352,-101.943705&sspn=0.008215,0.018947&t=h&geocode=FfSZ_wEdIHft-Q&hnear=2811+Texas+289+Loop+Frontage+Rd+%235,+Lubbock,+Texas+79423&layer=c&cbll=33.528999,-101.878608&panoid=S2zd2EP5T-W3uZAtqmMMAg&cbp=12,139.7,,0,14.62&z=21">2811 S Loop 289 STE 5<br />
+									Lubbock, Texas 79423<br/></a>
+								<span class="location-phone">806-745-1155</span>
+							</div>
+						</div>
+						<img src="img/mike2.png" class="mike" />
+					</div>
+				</div>
+			</div>
+			<div class="mobile nav">
+				<ul class="nav-list">
+					<li class="nav-list-item"><a href="index.html">Home</a></li>
+					<li class="nav-list-item"><a href="whysell.html">Why Sell</a></li>
+					<li class="nav-list-item"><a href="specialbuys.html">Special Buys</a></li>
+					<li class="nav-list-item"><a href="locations.html">Locations</a></li>
+					<li class="nav-list-item"><a href="contact.html">Contact</a></li>
+					<li class="nav-list-item"><a href="instantbid.html">MGB Instant Bid</a></li>
+				</ul>
+			</div>
+			<div class="footer">
+				<div class="wrapper">
+					<div class="social-media">
+						<a href="http://www.facebook.com/mikesgoldbuyers"><img class="contact-icon" src="img/fb.png" alt="Facebook" /></a>
+						<a href="#"><img class="contact-icon" src="img/rss.png" alt="" /></a>
+					</div>
+					<p class="tagline">MGB Customers say, <span class="caps">"I sold gold, and I like Mike!"</span></p>
+				</div>
+			</div>
+
+			<div class="copyright">
+				<div class="wrapper">
+					<span>&copy; Copyright 2013 MGB</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

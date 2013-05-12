@@ -1,0 +1,134 @@
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
+	body{
+		margin: 0;
+		padding: 0;
+		background-image: none;
+		min-width:0;
+	}
+	.tagline{
+		display: none;
+	}
+	.logo{
+		float: none;
+		text-align: center;
+	}
+	.page-title{
+		text-align: left;
+		float: none;
+		padding-left: 1em;
+		background: url(img/home-banner-bg.png) repeat-x;
+		padding: 1em;
+		margin: 0;
+		background-position: bottom center;
+	}
+	.nav{
+		display: none;
+		float: none;
+		margin: 0;
+	}
+	.mobile{
+		display: block;
+	}
+	.nav-list{
+		border-top: 1px solid #282828;
+		padding-left: 0;
+		margin:0;
+	}
+	.nav-list-item{
+		display: block;
+		padding: 0;
+		background-color: #FFFED2;
+		margin: 0;
+		border-bottom: 1px solid #282828;
+	}
+	.nav-list-item > a{
+		display: block;
+	color: #282828;
+	font-size: 1.4em;
+	padding: 1em;
+	font-family: Arial, sans-serif;
+	text-transform: none;
+	text-decoration: none;
+	border-radius: 0;
+	box-shadow: none;
+	background-color: #FFFED2;
+	}
+	.content{
+		margin-top: 0;
+		padding: 1em;
+		width: auto;
+	}
+	.content > p{
+		margin: 1em 0;
+	}
+	.footer,
+	.footer > .wrapper,
+	.index .footer,
+	.index .footer > .wrapper{
+		height: auto;
+		min-height: 0;
+	}
+	.footer{
+		border-top: 1px solid #282828;
+	}
+	.social-media{
+		margin: 8px 0;
+		position: relative;
+		float: none;
+		bottom: 0;
+		left: 0;
+	}
+	.contact-us-link{
+		display: none;
+	}
+	/*****Home page specific*****/
+	.index .social-media{
+		text-align: center;
+	}
+	.home-banner{
+		height: auto;
+		display: none;
+	}
+	.home-quote{
+		display: none;
+	}
+	.home-locations{
+		width: auto;
+		margin: 0 4% 8px 4%;
+	}
+	.home-locations .locations{
+		padding: 0;
+	}
+	table.home-contact{
+		border-top: 0;
+	}
+	.mike{
+		display: none;
+	}
+	/*****Contact specific****/
+	table.contact{
+		margin: 0;
+		padding: 0;
+	}
+	.contact-data .location-title{
+		display: block;
+	}
+	.contact-data .location{
+		width: auto;
+	}
+
+	/*****Locations specific*****/
+	#map_canvas{
+		margin-top: 0;
+	}
+	.location{
+		width: 50%;
+	}
+	.content > p,
+	.instant-bid,
+	.contact,
+	.locations-data{
+		width: auto;
+		float: none;
+	}
+}

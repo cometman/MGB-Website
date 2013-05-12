@@ -1,0 +1,359 @@
+body{
+	font-family: Arial, serif;
+	font-size: 11px;
+	margin: 0;
+	min-width: 880px;
+}
+a,
+a > img{
+	text-decoration: none;
+	border: 0;
+}
+.container{
+	margin: 0 auto;
+	position: relative;
+}
+.header{
+	background: url("img/header-bg.png") no-repeat;
+	background-position: center bottom;
+	background-size: auto;
+	overflow: hidden;
+	height: 160px;
+	box-shadow: 0px 0px 20px #333;
+	border-bottom: 1px solid #282828;
+}
+.wrapper{
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.tagline{
+	float: left;
+	display: block;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 2em;
+	margin-left: 2em;
+	margin-top: 2em;
+	font-style: italic;
+}
+.whysell .tagline,
+.specialbuys .tagline,
+.instantbid .tagline,
+.contactbody .tagline,
+.locations .tagline{
+	float: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 10px;
+}
+.logo{
+	float: right;
+}
+.logo-img{
+	width: 300px;
+	margin-top: 18px;
+}
+.content-container{
+	clear: both;
+	overflow: hidden;
+}
+
+.page-title{
+	float: left;
+	text-transform: uppercase;
+	font-family: 'GarogierRegular', Garamond, serif;
+	font-size: 2.2em;
+}
+.nav{
+	margin-top: .8em;
+	float: right;
+}
+.nav-list{
+	list-style-type: none;
+}
+.nav-list-item{
+	display: inline-block;
+	margin-left: .6em;
+}
+.nav-list-item > a{
+	background-color: #000;
+	color: #FFFED2;
+	font-size: 1.2em;
+	font-family: 'GarogierRegular', Garamond, serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: .4em .8em;
+	border-radius: 4px;
+	box-shadow: 0px 0px 8px #282828;
+}
+.content{
+	clear: both;
+	float: left;
+	margin-top: 2em;
+	background-color: #F7F7F7;
+	width: 100%;
+	padding: 2em 0;
+	border-top: 1px solid #282828;
+	position: relative;
+	min-height: 200px;
+}
+
+.content > p,
+.locations-data,
+.contact{
+	margin: 0 60px 1em 60px;
+	font-size: 1.5em;
+}
+.content > p{
+	margin-left: 0;
+	width: 65%;
+	float: right;
+}
+.instant-bid,
+.contact{
+	width: 68%;
+	float: right;
+}
+.locations-data{
+	margin: 2em 0 1em 0;
+	width: 68%;
+	font-size: 1.4em;
+	float: right;
+	overflow: hidden;
+}
+.contact{
+	margin-right: 0;
+}
+
+.location{
+	width: 185px;
+	padding: .5em .5em 2em .5em;
+	float: left;
+}
+.contact a,
+.instant-bid a{
+	color: #000;
+	text-decoration: underline;
+}
+.contactbody .location{
+	padding: 0;
+	margin-bottom: 1em;
+	margin-right: 1em;
+}
+#map_canvas {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    height: 320px;
+}
+.instant-bid ol,
+.instant-bid p,
+.instant-bid-item{
+	font-size: 1.5em;
+}
+.instant-bid p{
+	font-style: italic;
+}
+.instant-bid-item{
+	line-height: 2.6em;
+}
+.instant-bid-item > span{
+	font-weight: bold;
+	font-style: italic;
+}
+.contact-icon{
+	width:50px;
+}
+.footer{
+	background: url("img/footer-bg.png") no-repeat;
+	background-position: center bottom;
+	background-size: auto;
+	overflow: hidden;
+	min-height: 220px;
+	position: relative;
+	clear: both;
+	border-top: 1px solid #282828;
+	border-bottom: 1px solid #282828;
+}
+.social-media{
+	z-index: 10;
+	position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+.copyright{
+	clear: both;
+	font-size: 1.2em;
+	font-family: Arial, sans-serif;
+}
+.copyright > .wrapper{
+	background-color: #F7F7F7;
+	padding: .4em 0;
+}
+.copyright > .wrapper > span{
+	padding-left: 1em;
+}
+.footer > .wrapper{
+	min-height: 220px;
+	position: relative;
+}
+
+.clear{
+	clear: both;
+}
+.caps{
+	text-transform: uppercase;
+}
+.fl{
+	float: left;
+}
+.mobile{
+	display: none;
+}
+
+/*****Home page specific *****/
+.home-banner{
+	background: url("img/home-banner-bg.png") repeat-x;
+	background-position: bottom center;
+	height: 145px;
+	overflow: hidden;
+}
+.home-quote{
+	clear: both;
+	float: right;
+	margin-right: 30px;
+}
+.home-quote > p{
+	margin: 0; 
+	font-size: 2em;
+	float: left;
+	display: inline-block;
+	margin-top: 1.6em;
+	font-family: 'GarogierRegular', Garamond, serif;
+}
+.home-quote > p > span{ 
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.2em;
+	font-family: Arial, sans-serif;
+	background: url(img/underline.png) no-repeat;
+	padding-bottom: 22px;
+	line-height: 50px;
+	background-position: bottom left;
+}
+.home-quote > img{
+	float: right;
+	margin-top: -8px;
+} 
+.home-row-title{
+	font-size: 1.6em;
+	width: 100px;
+	font-family: Arial, sans-serif;
+}
+.home-locations{
+	margin-top: 4em;
+	width: 59%;
+	float: right;
+	color: white;
+	border-collapse: collapse;
+}
+table.home-contact{
+	border-collapse: collapse;
+	border-top: 1px solid #282828;
+}
+.home-contact td{
+	padding: 1em 0;
+	border-bottom: 1px solid #282828;
+}
+.home-locations .location{
+	width: 104px;
+	padding: 0 2em 1em 1em;
+	font-family: 'GarogierRegular', Garamond, serif;
+	font-size: 1.2em;
+}
+.home-locations .location-phone{
+	font-family: Arial, sans-serif;
+}
+.home-store-hours{
+	font-family: Arial, sans-serif;
+	font-size: 1.4em;
+	padding-left: 1em;
+}
+.home-locations .tagline{
+	margin-left: -4em;
+}
+.index .footer{
+	min-height: 400px;
+}
+.index .footer > .wrapper{
+	min-height: 400px;
+	position: relative;
+	z-index: 20;
+}
+.mike{
+    position: absolute;
+    z-index: 0;
+    bottom: 27px;
+    width: 30%;
+	min-width: 490px;
+	max-width: 635px;	
+}
+
+/*******WhySell/SpecialBuys*****/
+.whysell .content,
+.specialbuys .content{
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+.whysell .mike,
+.specialbuys .mike,
+.instantbid .mike,
+.contactbody .mike,
+.locations .mike{
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    width: 255px;
+	min-width: 0;
+}
+
+/******Contact Us *****/
+.contact-us-link{
+	margin-top: 1em;
+	margin-left: 60px;
+	font-size: 1.6em;
+	font-family: Arial, sans-serif;
+}
+.contact-us-link > a{
+	color: white;
+}
+.contact-us-link > a > span{
+	text-transform: uppercase;
+	font-family: 'GarogierRegular', Georgia, serif;
+	font-size: 1.1em;
+	color: #FFFED2;
+}
+.contactbody .contact-data .location{
+		width: 220px;
+		height: auto;
+	}
+.locations .location-title,
+.contact-data .location-title{
+		display: block;
+	}
+/*****Old Browsers*****/
+.no-backgroundsize .container{
+	max-width: 1440px;
+}
+/*****Mobile*****/
+@media only screen and (min-width: 1440px){
+	.header,
+	.footer{
+		background-size: cover;
+	}
+}
